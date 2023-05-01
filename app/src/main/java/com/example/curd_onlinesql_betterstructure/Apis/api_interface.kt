@@ -41,7 +41,8 @@ interface api_interface
     ): Call<List<mymodel>>
 
 
-    //update using his id
+    //update using his id we are 
+    //referring to another table in ourphp code
     @FormUrlEncoded
     @POST("user_complain_update.php")
     fun user_complains_update(
